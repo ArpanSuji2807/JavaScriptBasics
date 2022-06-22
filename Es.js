@@ -133,11 +133,41 @@ var arrayOperations;
 // let removeItem = fruits.splice(pos,n);
 // console.log("After Splice",fruits);
 
-// const fruits = ["Apple","Mango","Strawberry","Grapes"];
-// fruits.splice(2,1);
+// const fruits = ["Apple", "Mango", "Strawberry", "Grapes"];
+// fruits.splice(2, 1, "Banana");
 // console.log(fruits);
 
 // let text = "Hello Hi"
 // let afterSlice = text.slice(0,4);
 // console.log(afterSlice)
 
+// let text = "Hello Hi";
+// const afterSlice = text.split(" ");
+// console.log(afterSlice[0]);
+
+//const fruits = ["Apple", "Mango"];
+//const fruits1 = ["Banana"];
+//const fruits2 = ["Grapes"];
+
+//const newFruitsArr = fruits.concat(fruits1,fruits2);
+//console.log(newFruitsArr);
+
+//const newFruitsArr = [...fruits,...fruits1,...fruits2];
+//console.log(newFruitsArr);
+
+//let afterCov = fruits.join(" ");
+//let afterCov = fruits.toString();
+//console.log(afterCov);
+
+var map;
+
+// const cities = ["Delhi","Kolkata","Bangalore"];
+// let output = cities.map((data) => data.toUpperCase());
+// console.log(output);
+
+let number = [45,22,66,12,8,15];
+// let num = number.map((no) => no*2);
+// console.log(num);
+
+let filterOutput = number.filter((no) =>no <20);
+console.log(filterOutput);
